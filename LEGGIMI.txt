@@ -1,0 +1,31 @@
+BILANCIO — PROTOTIPO 0.1
+
+COS'È
+Una prima applicazione di prova, con dati dimostrativi e interfaccia adattabile a smartphone, tablet e computer.
+
+PER PROVARLA SU WINDOWS
+Apri index.html con Chrome, Edge o un altro browser moderno.
+
+PER INSTALLARLA SU IPHONE/IPAD
+I file devono prima essere ospitati su un sito HTTPS. Una volta caricati:
+1) Apri il link in Safari.
+2) Usa Condividi > Aggiungi alla schermata Home.
+Non è possibile ottenere la sincronizzazione semplicemente trasferendo l'HTML da un dispositivo all'altro.
+
+PER INSTALLARLA SU WINDOWS COME PWA
+Servi la cartella su localhost oppure pubblicala via HTTPS. Apri il sito in Edge/Chrome e utilizza Installa app quando disponibile.
+
+FUNZIONALITÀ
+- Aggiunta, modifica, cancellazione delle entrate e uscite
+- Budget generale e per categoria, per mese
+- Analisi per categorie e trend di sei mesi
+- Movimenti ricorrenti da confermare, modificare o saltare
+- Categorie personalizzate
+- Esportazione CSV e backup/importazione JSON
+- Dati demo che possono essere azzerati
+
+IMPORTANTE
+Questo è un PROTOTIPO LOCALE, non un prodotto per gestire denaro in produzione.
+I dati vengono salvati tramite localStorage NEL SINGOLO BROWSER. Non sono sincronizzati e possono andare persi se cancelli i dati di navigazione.
+Salva regolarmente un backup JSON. Non inserire dati riservati.
+Il progetto non dispone ancora di account, database server, autenticazione o crittografia dedicata.
