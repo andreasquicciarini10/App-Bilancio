@@ -1,0 +1,11 @@
+Bilancio v0.2 — Dashboard rinnovata
+
+Nuova dashboard con periodo 23 novembre–22 dicembre, scelta da data a data inclusiva, saldo arancione, entrate verdi e uscite rosse, ultimi cinque movimenti e pulsante + centrale.
+
+L'app utilizza lo stesso archivio locale della v0.1: i dati già presenti nello stesso browser non vengono azzerati.
+
+Prima di aggiornare, esportare un backup JSON da Impostazioni.
+
+Per aggiornare GitHub Pages: estrarre questo ZIP, poi caricare i file nella cartella principale (root) del repository App-Bilancio sostituendo index.html, sw.js, manifest.webmanifest e gli altri file corrispondenti.
+
+Nota: solo la Dashboard usa intervalli personalizzati per ora; Budget, Statistiche e Ricorrenze usano ancora il mese solare. Il database cloud e la sincronizzazione non sono ancora presenti.
